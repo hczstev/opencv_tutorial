@@ -3,9 +3,11 @@ from os.path import abspath, join
 from matplotlib import pyplot as plt
 
 root_path = abspath("../")
+data_path = join(root_path, "data")
 
-messi_image = join(root_path, "data", "messi5.jpg")
-gradient_image = join(root_path, "data", "gradient.png")
+messi_image = join(data_path, "messi5.jpg")
+gradient_image = join(data_path, "gradient.png")
+logo_image = join(data_path, "logo.png")
 
 
 def show_image(img):
