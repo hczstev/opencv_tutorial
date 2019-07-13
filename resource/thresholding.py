@@ -31,7 +31,7 @@ def simple_thresh(img):
 
 
 if __name__ == "__main__":
-    img = cv2.imread(gradient_image, cv2.IMREAD_GRAYSCALE)  # BGR
+    img = cv2.imread(gradient_image, cv2.IMREAD_COLOR)  # BGR
 
     trunc_thresh(img)
     simple_thresh(img)
