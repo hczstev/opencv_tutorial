@@ -8,6 +8,7 @@ data_path = join(root_path, "data")
 messi_image = join(data_path, "messi5.jpg")
 gradient_image = join(data_path, "gradient.png")
 logo_image = join(data_path, "logo.png")
+j_image = join(data_path, "j.png")
 
 
 def show_image(img):
